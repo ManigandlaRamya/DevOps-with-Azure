@@ -1,0 +1,10 @@
+VIRUTALIZATION: 
+	Virtualization addresses these challenges by introducing a layer of abstraction between the hardware and the operating system. It enables the creation of multiple virtual instances, each running its own operating system and applications, on a single physical server.
+		
+Components of Virtualization: 
+Hypervisor (Virtual Machine Monitor):
+	The hypervisor is a crucial component of virtualization. It sits between the hardware and the operating systems, managing and allocating resources to virtual machines (VMs).
+	There are two types of hypervisors: Type 1 (bare-metal) runs directly on the hardware, while Type 2 (hosted) runs on top of an existing operating system.
+Virtual Machines (VMs):
+	VMs are the instances created by the hypervisor. Each VM operates as an independent computer with its own virtualized hardware, including CPU, memory, storage, and network interfaces.
+Multiple VMs can run on a single physical server, allowing for efficient resource utilization.		
