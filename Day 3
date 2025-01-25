@@ -1,0 +1,16 @@
+RESOURCE: 
+  resource is nothing but to create an instance from the VM to get the outcome is called as resource.
+Virtual machine, SQL database, Vnets etc everthing are services. BUT what you create inside the VIRTUAL MACHINE IS A RESOURCE.
+RESOURCE MANAGER:
+  While we create what the user tells us like VM the data provided and the property which are given by the user after that clicking on CREATE button these everything is called as AZURE RESOURCE MANAGER. 
+this AZURE RESORCE MANGER will create the data what you are looking for and the RESOURECE IS been created. And this entire RESOURSE data is sent to the user afetr creating who has requested it.
+If there is a user interface, or CLI or API the request goes to the AZURE RESOURCE MANAGER only.
+
+RESOURCE GROUP:
+grouping the resources based on our creatiria, for manging the accounts and access the data easily. 
+  when ever we are creating Virtual machine, SQL database, Vnets or anything resource group creating is must.
+  resource group is nothing but createing VM, SQL DB etc like that. 
+  We cannot create one resource without resource groups.
+suppose like payments, transactions etc created using resource groups.
+Grouping resources based on projects, environments, or applications helps keep your Azure environment well-organized.
+
