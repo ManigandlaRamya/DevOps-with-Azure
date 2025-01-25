@@ -1,5 +1,11 @@
 Fundamentals of cloud computing:
 Cloud computing:
-Cloud Computing means storing and accessing the data and programs on remote servers that are hosted on the internet instead of the computer’s hard drive or local server.
-Cloud computing is the delivery of computing services over the internet, or "the cloud". It allows users to access computing resources like storage, databases, and software on-demand
-Private cloud: It is like the banking, financial and insuarance domains which run apps in Private network.
+	Cloud Computing means storing and accessing the data and programs on remote servers that are hosted on the internet instead of the computer’s hard drive or local server.
+	Cloud computing is the delivery of computing services over the internet, or "the cloud". It allows users to access computing resources like storage, databases, and software on-demand
+	Cloud computing is a technology model that involves the delivery of computing services over the internet. Instead of owning and maintaining physical servers and infrastructure, users can access and use computing resources, applications, and storage provided by either third-party service providers (public cloud) or their own organization (private cloud) through the internet. These services are hosted in data centers located around the world.
+
+Private cloud:
+	It is like the banking, financial and insuarance domains which run apps in Private network.
+	Who Uses It: One specific organization or business.
+	What It's Like: Picture having your own personal, private computer space. It's like a digital clubhouse where only you and your team have access. Others can't just drop in.
+	Example: A company using its own server for all its digital needs.
