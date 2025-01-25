@@ -18,7 +18,7 @@ Hybrid Cloud:
 	What It's Like: It's like having your private computer space, but sometimes you use the shared internet space too.
 	Example: A business storing sensitive data in its private space but using the public cloud for extra storage or specific tasks.
 Virtualization:
-	Virtualization is the process of creating a virtual version of something, such as an operating system, server, storage, or network resources.
+	Virtualization is the process of creating a virtual version of something, such as an operating system, server, storage, or network resources. It enables the creation of multiple virtual instances, each running its own operating system and applications, on a single physical server. 
 Virtual machine:
         A Virtual Machine (VM) is a software-based emulation of a physical computer. It allows running multiple operating systems on a single physical machine.
 API(Application Programming Interface):
