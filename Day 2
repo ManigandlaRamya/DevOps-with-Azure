@@ -1,0 +1,42 @@
+REGIONS AND AVALIBILITY ZONE:
+
+  AVALIBILITY ZONE ALSO: It is useful to create the data center where the data is required because if the customer is in US region so the dta center should be present in US inself, because if the customer is in US if the dta center is in India then when the server send the data to India then India gets recived and again sends to USthere will be delay in the response.
+  Insted of that, the region data center shold be created in the particular zone itself  i.e:, the data center is nothing but the avilability zone, it should be present in US.(like from where the customer has been requested in that particular zone only the data center sholud be preanent without any latency).
+	
+		Now REGION is nothing but suppose if 10 data center are been created in a particular zone like Hyd , if there is an issue occured in HYD like the electricity issue then here the whole region where the data center is present the problem gets occured and all the people who had deployed there application into the HYD server they will face downtime.
+		Downtime is even bad than latency.
+		So Azure said that we will try to spread or split the entire into REGIONS, like in EAST HYD, WEST HYD that would be more better even if ther is any kind of downtime in any other region, there will the hlelp with another region like west HYD.
+		So then instead of keeping 10 data centers in 1 particular zone spliting them by regions in with the data center and the checks the avalibilityzone.
+
+		
+IAAS: (Infrastructure as a service):
+		the users have more control on what they take like networking, storages, Virtual machines these comes under IAAS model having more control on the infrastructure and they should manage and maintain the Operating system.
+		
+PAAS: (Platform as a Service):
+		here PAAS is used from the databases like we can create through the mySQL from the database where the customers need to develop, run, and manage applications without dealing with the complexity of underlying infrastructure afeter creating mysql we need to configure it. and the Developers can focus on coding like application logic, while Azure manages the underlying infrastructure.
+		
+SAAS: (Software as a Srevice):
+	Saas is which there is no need to create any database we will directly get the platform, Infrastructure and here we don't need to configure also. 
+		example: EMAIL services like outlook:- we no need to confige just we need to start the email outlook app. here it only weneed send or receive the emails itself. like the third party apps. it tells whether we need to pay or tells us the expenses of the software. we just need to pay the suscription of the software.
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
