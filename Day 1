@@ -1,11 +1,46 @@
 Fundamentals of cloud computing:
+
 Cloud computing:
 	Cloud Computing means storing and accessing the data and programs on remote servers that are hosted on the internet instead of the computer’s hard drive or local server.
 	Cloud computing is the delivery of computing services over the internet, or "the cloud". It allows users to access computing resources like storage, databases, and software on-demand
-	Cloud computing is a technology model that involves the delivery of computing services over the internet. Instead of owning and maintaining physical servers and infrastructure, users can access and use computing resources, applications, and storage provided by either third-party service providers (public cloud) or their own organization (private cloud) through the internet. These services are hosted in data centers located around the world.
-
+	code: Cloud computing is a technology model that involves the delivery of computing services over the internet. Instead of owning and maintaining physical servers and infrastructure, users can access and use computing resources, applications, and storage provided by either third-party service providers (public cloud) or their own organization (private cloud) through the internet. These services are hosted in data centers located around the world.
+Public Cloud:
+	Who Uses It: Everyone, like individuals, businesses, and organizations.
+	What It's Like: Imagine a giant, shared computer space on the internet. It's like using apps, storing files, or doing tasks on the internet that anyone can access.
+	Example: Think of Google Drive or Amazon Web Services (AWS).
 Private cloud:
 	It is like the banking, financial and insuarance domains which run apps in Private network.
 	Who Uses It: One specific organization or business.
 	What It's Like: Picture having your own personal, private computer space. It's like a digital clubhouse where only you and your team have access. Others can't just drop in.
 	Example: A company using its own server for all its digital needs.
+Hybrid Cloud:
+	Who Uses It: A mix of everyone, depending on needs.
+	What It's Like: It's like having your private computer space, but sometimes you use the shared internet space too.
+	Example: A business storing sensitive data in its private space but using the public cloud for extra storage or specific tasks.
+Virtualization:
+	Virtualization is the process of creating a virtual version of something, such as an operating system, server, storage, or network resources.
+Virtual machine:
+        A Virtual Machine (VM) is a software-based emulation of a physical computer. It allows running multiple operating systems on a single physical machine.
+API(Application Programming Interface):
+	it is with multiple operating systems with one app of through the user interface. It allows to access the app in pragamatical manner. 
+	code: API is a set of rules and protocols that allows different software applications to communicate with each other. It defines how software components should interact.
+Regions:
+	Regions in cloud computing refer to geographic locations where cloud providers have data centers. Each region contains multiple data centers.
+Availability Zones
+	Availability Zones are isolated locations within a region that have their own power, cooling, and networking. They are designed to provide high availability and fault tolerance.
+Scalability
+	Scalability is the ability of a system to handle an increasing amount of work or its potential to be enlarged to accommodate that growth.
+	example: If there is more no of users watching an application then this Auto-scaling is been used. It tells the load balancer to create another Virtual Machine whith the scaling numnber on the basis of the users
+Load Balancer:
+	If it has many requests it divides or balances the requests accordingly to the servers.
+	example: Instagram has millions of requests load balancer banlancer divides the requets. Suppose if there is a crash in 1 request automatically goes to the another requets whiout any distubance. basically load balancer does this.
+Elasticity
+	Elasticity in cloud computing refers to the ability to dynamically scale resources up or down based on demand. 
+	IMP: It is nothing but automatically scalling the infrastructure.
+High Availability
+	(HA) ensures that a system or application is operational and accessible for a high percentage of time, typically 99.9% or higher
+	IMP: It is nothing but the application that rarely the server gets do, example like instgram bukid with more scalabilty but in case if the users get increase the server gets slow.
+	The infrastructure suolud be highly avilable most of the times.
+Disaster Recovery
+	It involves the planning and processes for restoring and recovering data and systems after a natural or human-induced disaster.
+	IMP: if a disaster taken place it should alreay have a plan and process before only. for this we sholud already have a backup like create that data in another region that woud be more useful when the disaster takes place.
