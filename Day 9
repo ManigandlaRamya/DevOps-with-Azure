@@ -1,0 +1,11 @@
+Azure Storage Services:
+There are four types:
+  Blog storage services
+  Files storage services
+  Tables storage services
+  Queue storage services
+
+1. Blog storage services: 
+    	It stores large amounts of unstructured data (like images, documents, and videos) to the Azure cloud platform called Azure Blob Storage. 
+It is created with the storage accounts in the Microsoft azure starts the process
+Create a storage account and then it goes inside the blog  where there is space with 10000 of data space is present, where the data is present in storage account
