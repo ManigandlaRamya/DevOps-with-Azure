@@ -1,0 +1,41 @@
+In windows:
+  gitbash
+  cd ~/download
+
+
+In mac:
+					-------		ssh -i (pem file name) azureuser@(IP ADDRESS)
+IF PERMISSION IS DINED:
+RUN- 				------	chmod 600 (pem file)
+again run ssh key
+					--------	mkdir myagent && cd myagent 
+IF ALREADY PREST TYPE ----- cd ~/myagent/
+1st download the docker.io file ----- sudo apt install docker.io
+--------- sudo usermod -aG docker azureuser
+--------- sudo systemctl restart docker 
+
+THEN ------ wget (download the URL ) whick is https://vstsagentpackage.azureedge.net/agent/4.251.0/vsts-agent-linux-x64-4.251.0.tar.gz 
+THEN	-----	tar zxvf vsts-agent-linux-x64-4.251.0.tar.gz
+			------	./config.sh 
+THEN server URL of the azure-devops-pipelines------ https://dev.azure.com/manigandlaramya2000
+first ENTER then write PAT token
+PAT token - create a new PAT in top right side 
+FOR AZUREAGENT TOKEN PAT IS ------- 4cjjJMCHE9O4XLo01XpvRhB9K6dbX3Ixv5vp9tXuL49hzfUKZ2jDJQQJ99BBACAAAAAAAAAAAAASAZDO4Lqi 
+
+agent pool name is serch in agent pools in poject - at prestnt mine is ------ azureaagent
+
+where here agent is offline:
+now ---- ls
+----- ./config.sh   if error 
+------ ./run.sh
+
+
+IF WE WANT TO AGAIN  PEN THE AZURE FILE IN TERMINAL 
+----  ssh -i (pem file name) azureuser@(IP ADDRESS)
+----- sudo systemctl restart docker 
+verify is it is working or not 
+commands ------ docker pull hello-world
+---- cd ~/myagent/
+./run.sh
+
+
