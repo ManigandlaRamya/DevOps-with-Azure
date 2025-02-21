@@ -30,7 +30,7 @@ now ---- ls
 ------ ./run.sh
 
 
-IF WE WANT TO AGAIN  PEN THE AZURE FILE IN TERMINAL 
+IF WE WANT TO AGAIN OPEN THE AZURE FILE IN TERMINAL 
 ----  ssh -i (pem file name) azureuser@(IP ADDRESS)
 ----- sudo systemctl restart docker 
 verify is it is working or not 
