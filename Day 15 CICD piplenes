@@ -1,0 +1,14 @@
+login to k8 cluster:
+1st open the terminal with github zip file of the voting app
+------ az aks get-credentials --name {(kurbenates cluster name)which is azuredevops} --overwrite-existing --resource-group {(resource gp name)- which is azurecicd }
+then ----- kubectl get pods
+
+
+then argocd installation:
+  https://argo-cd.readthedocs.io/en/stable/getting_started/ (link of argo cd)
+--- kubectl create namespace argocd
+---- kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
+---- kubectl get pods -n argocd
+
+configure argocd:
+  
