@@ -1,0 +1,29 @@
+kubectl get pods
+kubectl get svc
+kubectl get node -o wide
+
+
+
+
+
+
+kubectl get svc -n argocd 
+kubectl edit svc argocd-server -n argocd
+kubectl get svc -n argocd
+kubectl get nodes -o wide
+kubectl edit cm argocd-cm -n argocd
+kubectl get pods
+kubectl edit pod vote-598d47d585-56vdh(voter name)
+kubectl get cm -n argocd
+kubectl create secret docker-registry acr-secret --namespace default --docker-server=ramyaazurecicd1.azurecr.io --docker-username=ramyaazurecicd1 --docker-password=/OiJYbm45ve3YJlBuw9XqSDtnvhp8e15jfCXPGDixb+ACRDYJqiJ
+kubectl edit pod vote-88db7ddf7-cnzdh
+kubectl get secret
+kubectl get deploy
+kubectl get pods
+IF YOU WANT TO DELETE ---kubectl delete vote-88db7ddf7-cnzdh 
+
+kubectl get secret
+kubectl get deploy
+kubectl get pods
+
+kubectl get deploy vote -o yaml
