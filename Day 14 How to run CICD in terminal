@@ -39,3 +39,7 @@ commands ------ docker pull hello-world
 ./run.sh
 
 
+for insterting commands press i 
+for exit press esc
+then wrire---- :wq!
+
